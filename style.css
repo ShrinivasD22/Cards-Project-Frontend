@@ -1,0 +1,32 @@
+.card {
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+  }
+  .card img {
+    object-fit: cover;
+    height: 200px;
+  }
+  .card-footer {
+    border: none;
+    cursor: pointer;
+    padding: 10px;
+    font-weight: bold;
+    border-radius: 0 0 15px 15px;
+    color: white !important; 
+  }
+  .card-footer.shoes {
+    background-color: #00b894;
+  }
+  .card-footer.earphone {
+    background-color: #6c5ce7;
+  }
+  .card-footer.watch {
+    background-color: #2d3436;
+  }
+  .card-footer.mobile {
+    background-color: #e17055;
+  }
+  .card-footer:hover {
+    opacity: 0.9;
+  } 
